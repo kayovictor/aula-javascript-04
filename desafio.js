@@ -1,0 +1,17 @@
+let mensagemSecreta = ['Aprender', 'não', 'é', 'o', 'sobre', 'que', 'você', 'consegue', 'facilmente', 'na', 'primeira', 'vez', 'mas', 'sobre', 'o', 'que', 'você', 'pode', 'descobrir', '-2015', 'Chris', 'Pine', 'Aprenda', 'JavaScript'];
+let tirarAultimaMensagem = mensagemSecreta.pop();
+console.log(mensagemSecreta);
+let adicionarNoFinalDAMensagem = mensagemSecreta.push('a', 'programar');
+console.log(mensagemSecreta);
+let saberAposicao = mensagemSecreta.indexOf('facilmente');
+console.log(saberAposicao);
+mensagemSecreta[8] = 'certo';
+console.log(mensagemSecreta);
+let removerAprimeiroMensagem = mensagemSecreta.shift();
+let adicionarAprimeiraMensagem = mensagemSecreta.unshift('Programação');
+let saberAposicao01 = mensagemSecreta.indexOf('consegue');
+console.log(saberAposicao01);
+mensagemSecreta.splice(7,4);
+console.log(mensagemSecreta);
+mensagemSecreta[7] = 'sabe';
+console.log(mensagemSecreta.join(' '));
